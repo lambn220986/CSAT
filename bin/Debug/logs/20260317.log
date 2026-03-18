@@ -1,0 +1,29 @@
+﻿2026-03-17 09:22:03,976 INFO  CSAT.MainForm - Insert CustomerSatisfaction: {"Id":0,"VoteValue":1,"UserId":5,"DepartmentId":10,"CreatedDate":"0001-01-01T00:00:00","DeviceName":"PHAMVU_PC","IPAddress":"192.168.7.80","Note":null}
+2026-03-17 10:30:10,731 ERROR CSAT.MainForm - Lỗi khi xử lý OnLoad
+System.IO.FileNotFoundException: The specified document cannot be found.
+File name: 'svg/very_bad.png'
+   at Svg.SvgDocument.Open[T](String path, SvgOptions svgOptions) in /_/externals/SVG/Source/SvgDocument.cs:line 272
+   at Svg.Model.Services.SvgService.OpenSvg(String path, Nullable`1 parameters) in /_/src/Svg.Model/Services/SvgService.cs:line 666
+   at Svg.Model.Services.SvgService.Open(String path, Nullable`1 parameters) in /_/src/Svg.Model/Services/SvgService.cs:line 687
+   at Svg.Skia.SKSvg.Load(String path, Nullable`1 parameters) in /_/src/Svg.Skia/SKSvg.Model.cs:line 300
+   at Svg.Skia.SKSvg.Load(String path) in /_/src/Svg.Skia/SKSvg.Model.cs:line 315
+   at CSAT.MainForm.CreateButton(String text, String svgFile, Color color, Int32 value) in D:\SourceCode\CSAT\MainForm.cs:line 127
+   at CSAT.MainForm.InitializeUI() in D:\SourceCode\CSAT\MainForm.cs:line 94
+   at CSAT.MainForm.OnLoad(EventArgs e) in D:\SourceCode\CSAT\MainForm.cs:line 52
+2026-03-17 10:31:27,949 ERROR CSAT.MainForm - Lỗi khi xử lý OnLoad
+System.IO.FileNotFoundException: The specified document cannot be found.
+File name: 'svg/very_bad.png'
+   at Svg.SvgDocument.Open[T](String path, SvgOptions svgOptions) in /_/externals/SVG/Source/SvgDocument.cs:line 272
+   at Svg.Model.Services.SvgService.OpenSvg(String path, Nullable`1 parameters) in /_/src/Svg.Model/Services/SvgService.cs:line 666
+   at Svg.Model.Services.SvgService.Open(String path, Nullable`1 parameters) in /_/src/Svg.Model/Services/SvgService.cs:line 687
+   at Svg.Skia.SKSvg.Load(String path, Nullable`1 parameters) in /_/src/Svg.Skia/SKSvg.Model.cs:line 300
+   at Svg.Skia.SKSvg.Load(String path) in /_/src/Svg.Skia/SKSvg.Model.cs:line 315
+   at CSAT.MainForm.CreateButton(String text, String svgFile, Color color, Int32 value) in D:\SourceCode\CSAT\MainForm.cs:line 127
+   at CSAT.MainForm.InitializeUI() in D:\SourceCode\CSAT\MainForm.cs:line 94
+   at CSAT.MainForm.OnLoad(EventArgs e) in D:\SourceCode\CSAT\MainForm.cs:line 52
+2026-03-17 10:36:42,313 INFO  CSAT.MainForm - Insert CustomerSatisfaction: {"Id":0,"VoteValue":1,"UserId":5,"DepartmentId":10,"CreatedDate":"0001-01-01T00:00:00","DeviceName":"PHAMVU_PC","IPAddress":"192.168.7.80","Note":null}
+2026-03-17 10:54:04,478 INFO  CSAT.MainForm - Insert CustomerSatisfaction: {"Id":0,"VoteValue":3,"UserId":5,"DepartmentId":10,"CreatedDate":"0001-01-01T00:00:00","DeviceName":"PHAMVU_PC","IPAddress":"192.168.7.80","Note":null}
+2026-03-17 10:58:26,098 INFO  CSAT.MainForm - Insert CustomerSatisfaction: {"Id":0,"VoteValue":3,"UserId":5,"DepartmentId":10,"CreatedDate":"0001-01-01T00:00:00","DeviceName":"PHAMVU_PC","IPAddress":"192.168.7.80","Note":null}
+2026-03-17 11:18:37,695 INFO  CSAT.MainForm - Insert CustomerSatisfaction: {"Id":0,"VoteValue":5,"UserId":5,"DepartmentId":10,"CreatedDate":"0001-01-01T00:00:00","DeviceName":"PHAMVU_PC","IPAddress":"192.168.7.80","Note":null}
+2026-03-17 11:18:50,338 INFO  CSAT.MainForm - Insert CustomerSatisfaction: {"Id":0,"VoteValue":1,"UserId":5,"DepartmentId":10,"CreatedDate":"0001-01-01T00:00:00","DeviceName":"PHAMVU_PC","IPAddress":"192.168.7.80","Note":null}
+2026-03-17 11:18:54,063 INFO  CSAT.MainForm - Insert CustomerSatisfaction: {"Id":0,"VoteValue":1,"UserId":5,"DepartmentId":10,"CreatedDate":"0001-01-01T00:00:00","DeviceName":"PHAMVU_PC","IPAddress":"192.168.7.80","Note":null}
