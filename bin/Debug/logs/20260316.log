@@ -1,1 +1,0 @@
-﻿2026-03-16 11:00:31,720 INFO  CSAT.MainForm - Insert CustomerSatisfaction: {"Id":0,"VoteValue":5,"UserId":5,"DepartmentId":10,"CreatedDate":"0001-01-01T00:00:00","DeviceName":"PHAMVU_PC","IPAddress":"192.168.7.80","Note":null}
