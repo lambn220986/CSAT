@@ -24,16 +24,16 @@ namespace CSAT
             Application.SetCompatibleTextRenderingDefault(false);
             XmlConfigurator.Configure(LogManager.GetRepository(Assembly.GetEntryAssembly()));
             var json = args.FirstOrDefault();
-           
+
             if (string.IsNullOrWhiteSpace(json))
             {
                 var dataTest = new
                 {
                     UserId = 5,
-                    UserName = "Lambn",
-                    FullName = "Bùi Ngọc Lâm",
+                    UserName = "TEST",
+                    FullName = "NGUYỄN VĂN TEST",
                     DepartmentId = 10,
-                    DepartmentName = "Phòng Kỹ Thuật"
+                    DepartmentName = "Phòng TEST"
                 };
 
                 json = JsonConvert.SerializeObject(dataTest);

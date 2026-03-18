@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SourceCode\\CSAT\\",
+  "WorkspaceRootPath": "D:\\0.FPT\\BV_DaLieu_TPHCM\\MiniAPP\\CSAT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SourceCode\\CSAT\\MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA3C565B-14F0-4D7A-ADD8-D828CB367576}|CSAT.csproj|D:\\0.FPT\\BV_DaLieu_TPHCM\\MiniAPP\\CSAT\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3C565B-14F0-4D7A-ADD8-D828CB367576}|CSAT.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SourceCode\\CSAT\\IconSizeOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IconSizeOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{884B2F0A-9B81-49BC-9523-F52A40560B1D}|CSAT.Launcher\\CSAT.Launcher.csproj|d:\\0.fpt\\bv_dalieu_tphcm\\miniapp\\csat\\csat.launcher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884B2F0A-9B81-49BC-9523-F52A40560B1D}|CSAT.Launcher\\CSAT.Launcher.csproj|solutionrelative:csat.launcher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SourceCode\\CSAT\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SourceCode\\CSAT\\Data\\BaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\BaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA3C565B-14F0-4D7A-ADD8-D828CB367576}|CSAT.csproj|d:\\0.fpt\\bv_dalieu_tphcm\\miniapp\\csat\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3C565B-14F0-4D7A-ADD8-D828CB367576}|CSAT.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,64 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "D:\\SourceCode\\CSAT\\Data\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Data\\BaseRepository.cs",
-              "ToolTip": "D:\\SourceCode\\CSAT\\Data\\BaseRepository.cs",
-              "RelativeToolTip": "Data\\BaseRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\0.FPT\\BV_DaLieu_TPHCM\\MiniAPP\\CSAT\\CSAT.Launcher\\Program.cs",
+              "RelativeDocumentMoniker": "CSAT.Launcher\\Program.cs",
+              "ToolTip": "D:\\0.FPT\\BV_DaLieu_TPHCM\\MiniAPP\\CSAT\\CSAT.Launcher\\Program.cs",
+              "RelativeToolTip": "CSAT.Launcher\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T02:19:27.07Z",
+              "WhenOpened": "2026-03-18T15:28:18.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SourceCode\\CSAT\\Program.cs",
+              "DocumentMoniker": "D:\\0.FPT\\BV_DaLieu_TPHCM\\MiniAPP\\CSAT\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\SourceCode\\CSAT\\Program.cs",
+              "ToolTip": "D:\\0.FPT\\BV_DaLieu_TPHCM\\MiniAPP\\CSAT\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwBsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T07:05:50.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IconSizeOptions.cs",
-              "DocumentMoniker": "D:\\SourceCode\\CSAT\\IconSizeOptions.cs",
-              "RelativeDocumentMoniker": "IconSizeOptions.cs",
-              "ToolTip": "D:\\SourceCode\\CSAT\\IconSizeOptions.cs",
-              "RelativeToolTip": "IconSizeOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T07:05:48.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\SourceCode\\CSAT\\MainForm.cs",
+              "DocumentMoniker": "D:\\0.FPT\\BV_DaLieu_TPHCM\\MiniAPP\\CSAT\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\SourceCode\\CSAT\\MainForm.cs",
+              "ToolTip": "D:\\0.FPT\\BV_DaLieu_TPHCM\\MiniAPP\\CSAT\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAJUBAAAAAAAAAADwv6UBAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABABAAAAAAAAAAAYwKwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T07:10:41.92Z",
               "EditorCaption": ""
