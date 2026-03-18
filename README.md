@@ -22,20 +22,33 @@ Project được xây dựng bằng **.NET Framework WinForms**, phục vụ:
 - Visual Studio
 
 ---
-CSAT
-├── CSAT/ # WinForms UI chính
-│ ├── Data/ # Xử lý dữ liệu
-│ ├── Models/ # Model / Entity
-│ ├── Resources/ # Resource
-│ ├── Svg/ # Icon SVG
-│ ├── MainForm.cs # Form chính
-│ ├── Program.cs # Entry point
-│ └── App.config # Config
+
+## 📂 Cấu trúc project
+```text
+CSAT/
+├── CSAT/                    # Project chính (WinForms UI)
+│   ├── Data/               # Data
+│   ├── Models/             # Model / Entity
+│   ├── Resources/          # Resource (ảnh, file)
+│   ├── Svg/                # Icon SVG
+│   ├── Properties/         # Cấu hình project
+│   ├── CurrentUser.cs      # Thông tin user hiện tại
+│   ├── DeviceHelper.cs     # Xử lý thiết bị
+│   ├── IconSizeOptions.cs  # Config icon
+│   ├── MainForm.cs         # Form chính
+│   ├── SvgIconHelper.cs    # Xử lý icon SVG
+│   ├── Program.cs          # Entry point
+│   ├── App.config          # Config app
+│   ├── packages.config     # NuGet packages
+│   └── README.md
 │
-├── CSAT.Launcher/ # Project launcher
-│ ├── Program.cs
-│ └── App.config
+├── CSAT.Launcher/          # Project launcher riêng
+│   ├── Program.cs
+│   ├── App.config
+│   └── packages.config
 │
-├── bin/ # Output build (ignore)
-├── obj/ # File tạm (ignore)
-└── packages/ # NuGet packages
+├── bin/                    # Output build (ignore)
+├── obj/                    # File tạm build (ignore)
+├── packages/               # Thư viện NuGet
+└── .gitignore
+```
