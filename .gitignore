@@ -1,4 +1,7 @@
 .vs/
+.vs/
+bin/
+obj/
 [Bb]in/
 [Oo]bj/
 [Dd]ebug/
