@@ -2,8 +2,6 @@
 using CSAT.Models;
 using log4net;
 using Newtonsoft.Json;
-using SkiaSharp;
-using Svg.Skia;
 using System;
 using System.Drawing;
 using System.IO;
@@ -48,7 +46,8 @@ namespace CSAT
                 this.Size = ScreenWorking.WorkingArea.Size;
 
                 this.Text = "Customer Satisfaction";
-                this.Icon = SvgIconHelper.SvgToIcon("svg/very_good.svg", 64);
+                var iconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "svg/very_good.svg");
+                this.Icon = SvgIconHelper.SvgToIcon(iconPath, 64);
                 InitializeUI();
 
                 toolStripLabel1.Text = $"Phòng khám: {CurrentUser.DepartmentName}";
@@ -166,6 +165,8 @@ namespace CSAT
             lbl.Cursor = Cursors.Hand;
 
             // Nạp ảnh PNG
+            imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, imagePath);
+
             if (File.Exists(imagePath))
             {
                 using (var stream = new FileStream(imagePath, FileMode.Open, FileAccess.Read))
@@ -181,7 +182,8 @@ namespace CSAT
             lbl.Click += Vote_ClickAsync;
 
             // Gọi hàm tính toán lại vị trí mỗi khi kích thước màn hình thay đổi
-            panel.Resize += (s, e) => {
+            panel.Resize += (s, e) =>
+            {
                 ResizeAndRender(panel, pic, lbl);
             };
 

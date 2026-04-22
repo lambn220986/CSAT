@@ -12,6 +12,8 @@ namespace CSAT
 {
     internal static class Program
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(MainForm));
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -25,19 +27,19 @@ namespace CSAT
             XmlConfigurator.Configure(LogManager.GetRepository(Assembly.GetEntryAssembly()));
             var json = args.FirstOrDefault();
 
-            if (string.IsNullOrWhiteSpace(json))
-            {
-                var dataTest = new
-                {
-                    UserId = 5,
-                    UserName = "TEST",
-                    FullName = "NGUYỄN VĂN TEST",
-                    DepartmentId = 10,
-                    DepartmentName = "Phòng TEST"
-                };
+            //if (string.IsNullOrWhiteSpace(json))
+            //{
+            //    var dataTest = new
+            //    {
+            //        UserId = 5,
+            //        UserName = "TEST",
+            //        FullName = "NGUYỄN VĂN TEST",
+            //        DepartmentId = 10,
+            //        DepartmentName = "Phòng TEST"
+            //    };
 
-                json = JsonConvert.SerializeObject(dataTest);
-            }
+            //    json = JsonConvert.SerializeObject(dataTest);
+            //}
 
             if (string.IsNullOrWhiteSpace(json))
             {
@@ -51,6 +53,10 @@ namespace CSAT
 
             try
             {
+                log.Info($"Base64 Endcode:{json}");
+                json = Base64Helper.Decode(json);
+                log.Info($"Base64 Decode:{json}");
+
                 ProtectConfig();
                 dynamic obj = JsonConvert.DeserializeObject(json);
                 CurrentUser.UserId = obj?.UserId ?? 0;
@@ -68,6 +74,7 @@ namespace CSAT
                     "Lỗi tham số",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
+                log.Error(ex);
             }
         }
         [DllImport("user32.dll")]
@@ -89,5 +96,6 @@ namespace CSAT
                 config.Save();
             }
         }
+
     }
 }

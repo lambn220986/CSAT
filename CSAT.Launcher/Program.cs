@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using log4net;
+using Newtonsoft.Json;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -9,6 +10,8 @@ namespace CSAT.Launcher
 {
     internal static class Program
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(MainForm));
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -30,8 +33,19 @@ namespace CSAT.Launcher
                 };
 
                 json = JsonConvert.SerializeObject(dataTest);
-            }
 
+                json = "eyJVc2VySWQiOjUsIlVzZXJOYW1lIjoiVEVTVCIsIkZ1bGxOYW1lIjoiTkdVWeG7hE4gVsOCTiBURVNUIiwiRGVwYXJ0bWVudElkIjoxMCwiRGVwYXJ0bWVudE5hbWUiOiJQaMOibmcgVEVTVCJ9";
+            }
+            if (string.IsNullOrWhiteSpace(json))
+            {
+                MessageBox.Show(
+                    "Không thể xác định thông tin đăng nhập.\nVui lòng khởi động ứng dụng từ hệ thống HIS.",
+                    "Khởi động không hợp lệ",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+            log.Info(json);
             string processName = "CSAT";
             string exePath = Path.Combine(
                 AppDomain.CurrentDomain.BaseDirectory,
